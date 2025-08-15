@@ -34,7 +34,6 @@ O sistema permitirá o monitoramento diário dos níveis de glicose no sangue (g
 
 `Funcionalidade 3:` Realizar edição e remoção de registros glicêmicos e dados de usuário.
 
-`Funcionalidade 4:` Disponibilizar relatório do controle glicêmico por período específicado pelo usuário.
 
 
 ###
@@ -66,5 +65,6 @@ Instalar o MySQL na versão 8.0.28 e criar um database com nome: `gestao-glicemi
 É necessário fazer as configurações de conexão com o banco de dados no application properties com as variáveis `spring.datasource.username` e `spring.datasource.password` .
 
 Para executar o projeto localmente deve estar usando a versão do JDK 17 ou superior e possuir o Maven em uma versão compatível configurado na sua máquina. Por se tratar de uma aplicação Spring boot o próprio Spring se encarregará de buildar e startar a aplicação em um servidor local Tomcat na porta 8080.
+
 
 
